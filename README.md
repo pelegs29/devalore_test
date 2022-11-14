@@ -83,4 +83,4 @@ you can see the build status on the left side of the screen, if the build is suc
 by pressing the green check mark, you can see the build console output, you can see the test results there :
 ![image](https://user-images.githubusercontent.com/80215741/201642979-a8bdb2b6-46ef-4f11-aed0-7959f9c27631.png)
 
-thats all, thank you for reading this guide !
+that's all, thank you for reading this guide !
