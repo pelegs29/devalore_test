@@ -2,6 +2,10 @@ import requests
 import json
 
 
+# fetch_rates function
+# input: environment (prod or test)
+# output: dictionary of currency rates below 10
+#        or Exception if environment is not prod or test
 def fetch_rates(env):
     rates = []
     url = "https://api.apilayer.com/exchangerates_data/latest"
@@ -67,11 +71,3 @@ def fetch_rates(env):
             rates.append(curr)
     return rates
 
-
-if __name__ == '__main__':
-    environment = ''
-
-    while environment != 'Dev' and environment != "Prod":
-        environment = input("Enter your environment: (Dev/Prod) ")
-
-    fetch_rates(environment)
